@@ -2,10 +2,6 @@ body {
   margin: 0;
 }
 
-div {
-  border: 1px solid red;
-}
-
 .bar {
   position: inline-block;
   float: right;
@@ -143,8 +139,7 @@ li {
 
 #queries {
   position: absolute;
-  border: solid 2px green;
-  margin: 163px;
+  margin: 165px;
   font-family: arial;
   width: 600px;
 }
@@ -181,4 +176,10 @@ li {
 #why:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+#bottom {
+  position: absolute;
+  width: 100px;
+  height: 100px;
 }

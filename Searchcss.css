@@ -3,6 +3,7 @@ body {
 }
 
 div {
+  border: 1px solid red;
 }
 
 .bar {
@@ -26,12 +27,17 @@ div {
   margin-left: -8px;
 }
 
+#sign_in:hover {
+  cursor: pointer;
+}
+
 #imgicon {
   content: url('images/before.png');
 }
 
 #imgicon:hover {
   content: url('images/after.png');
+  cursor: pointer;
 }
 
 #search_line {
@@ -120,8 +126,59 @@ li {
 
 .opt_l:hover, .opt_r:hover {
   color: #222;
+  cursor: pointer;
 }
 
 #opt_selected: hover {
   color: #1A73E8;
+}
+
+#search_results {
+  position: absolute;
+  margin: 136px 166px;
+  color: #808080;
+  font-size: small;
+  font-family: arial;
+}
+
+#queries {
+  position: absolute;
+  border: solid 2px green;
+  margin: 163px;
+  font-family: arial;
+  width: 600px;
+}
+
+#res_title {
+  color: #1a0dab;
+  font-size: 18px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+#res_title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#res_web {
+  color: #006621;
+  font-size: 14px;
+  margin: 0px;
+}
+
+#res_description {
+  color: #545454;
+  font-size: small;
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+#why {
+  color: #808080;
+}
+
+#why:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
